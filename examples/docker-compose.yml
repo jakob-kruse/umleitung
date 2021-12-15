@@ -1,0 +1,9 @@
+services:
+  umleitung:
+    image: umleitung
+    container_name: umleitung
+    ports:
+      - "3000:3000"
+    environment:
+      - "PORT=3000"
+      - "ROUTE_https://my-website.de/*=http://google.de"
