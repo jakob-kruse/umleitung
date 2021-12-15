@@ -1,6 +1,6 @@
 services:
   umleitung:
-    image: umleitung
+    image: ghcr.io/jakob-kruse/umleitung
     container_name: umleitung
     ports:
       - "3000:3000"
